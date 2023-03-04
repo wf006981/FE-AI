@@ -39,7 +39,8 @@ class Unit:
         lvl_text = ''
         self.unit_stats['lvl']['current'] = self.unit_stats['lvl']['current'] + 1
         for key in self.unit_stats:
-            if (key not in ['name','lvl']) and ((1 - random.random()) > self.unit_stats[key]['growth']):
+            if (key not in ['name','lvl']) and (random.random() < self.unit_stats[key]['growth']):
+            #((1 - random.random()) > self.unit_stats[key]['growth']):
                 self.unit_stats[key]['current'] = self.unit_stats[key]['current'] + 1
                 lvl_text = lvl_text + key + '+1;'
         return lvl_text

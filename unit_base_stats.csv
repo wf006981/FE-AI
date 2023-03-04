@@ -1,2 +1,2 @@
-name,lvl_base,hp_base,str_base,mag_base,dex_base,spd_base,lck_base,def_base,res_base,bld_base,hp_growth,str_growth,mag_growth,dex_growth,spd_growth,lck_growth,def_growth,res_growth,bld_growth
-Alear,1,22,6,0,5,7,5,5,3,4,60,5,35,20,45,50,40,25,25
+name,lvl_base,hp_base,str_base,mag_base,dex_base,spd_base,def_base,res_base,lck_base,bld_base,hp_growth,str_growth,mag_growth,dex_growth,spd_growth,def_growth,res_growth,lck_growth,bld_growth
+Alear,1,22,6,0,5,7,5,5,3,4,60,35,20,45,50,40,25,25,5
